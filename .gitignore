@@ -1,0 +1,33 @@
+# Rust build artifacts
+/target/
+Cargo.lock
+**/*.rs.bk
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Solana
+/test-ledger/
+.anchor/
+
+# Environment
+.env
+.env.local
+
+# Build outputs
+*.so
+*.pda
+
+# Test outputs
+/test-outputs/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
