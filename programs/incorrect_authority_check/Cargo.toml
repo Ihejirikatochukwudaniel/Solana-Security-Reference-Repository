@@ -1,0 +1,14 @@
+[package]
+name = "incorrect-authority-check"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+anchor-lang = "0.29"
+anchor-spl = "0.29"
+solana-program = "1.17"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "incorrect_authority_check"
